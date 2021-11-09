@@ -1,4 +1,4 @@
-package com.FA4.UserMS;
+package com.team9.UserMS;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
