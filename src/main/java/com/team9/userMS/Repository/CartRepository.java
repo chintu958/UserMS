@@ -1,11 +1,11 @@
-package com.team9.userMS.UserMS.Repository;
+package com.team9.userMS.Repository;
 
 import java.util.List;
 
 import org.springframework.data.repository.CrudRepository;
 
-import com.team9.userMS.UserMS.Entity.CartEntity;
-import com.team9.userMS.UserMS.Utility.CompoundKey;
+import com.team9.userMS.Entity.CartEntity;
+import com.team9.userMS.Utility.CompoundKey;
 
 public interface CartRepository extends CrudRepository<CartEntity, CompoundKey>{
 	

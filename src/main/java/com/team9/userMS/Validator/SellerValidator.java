@@ -1,7 +1,7 @@
-package com.team9.userMS.UserMS.Validator;
+package com.team9.userMS.Validator;
 
-import com.team9.userMS.UserMS.DTO.SellerDTO;
-import com.team9.userMS.UserMS.Exception.UserException;
+import com.team9.userMS.DTO.SellerDTO;
+import com.team9.userMS.Exception.UserException;
 
 public class SellerValidator {
 	

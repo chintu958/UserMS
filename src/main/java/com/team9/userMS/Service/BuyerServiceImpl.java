@@ -1,4 +1,4 @@
-package com.team9.userMS.UserMS.Service;
+package com.team9.userMS.Service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,17 +9,17 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.team9.userMS.UserMS.DTO.BuyerDTO;
-import com.team9.userMS.UserMS.DTO.CartDTO;
-import com.team9.userMS.UserMS.Entity.BuyerEntity;
-import com.team9.userMS.UserMS.Entity.CartEntity;
-import com.team9.userMS.UserMS.Entity.WishlistEnity;
-import com.team9.userMS.UserMS.Exception.UserException;
-import com.team9.userMS.UserMS.Repository.BuyerRepository;
-import com.team9.userMS.UserMS.Repository.CartRepository;
-import com.team9.userMS.UserMS.Repository.WishlistRepository;
-import com.team9.userMS.UserMS.Utility.CompoundKey;
-import com.team9.userMS.UserMS.Validator.BuyerValidator;
+import com.team9.userMS.DTO.BuyerDTO;
+import com.team9.userMS.DTO.CartDTO;
+import com.team9.userMS.Entity.BuyerEntity;
+import com.team9.userMS.Entity.CartEntity;
+import com.team9.userMS.Entity.WishlistEnity;
+import com.team9.userMS.Exception.UserException;
+import com.team9.userMS.Repository.BuyerRepository;
+import com.team9.userMS.Repository.CartRepository;
+import com.team9.userMS.Repository.WishlistRepository;
+import com.team9.userMS.Utility.CompoundKey;
+import com.team9.userMS.Validator.BuyerValidator;
 
 @Service(value = "buyerService")
 @Transactional

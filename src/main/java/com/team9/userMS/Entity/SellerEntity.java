@@ -1,4 +1,4 @@
-package com.team9.userMS.UserMS.Entity;
+package com.team9.userMS.Entity;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

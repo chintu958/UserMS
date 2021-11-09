@@ -1,4 +1,4 @@
-package com.team9.userMS.UserMS.Exception;
+package com.team9.userMS.Exception;
 
 
 

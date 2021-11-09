@@ -1,7 +1,15 @@
-package com.team9.userMS.UserMS.DTO;
+package com.team9.userMS.Entity;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
-public class BuyerDTO {
+@Entity
+@Table(name = "buyer")
+public class BuyerEntity {
+	
+	@Id
+	private String buyerId;
 	private String name;
 	private String email;
 	private String phoneNumber;
@@ -9,8 +17,12 @@ public class BuyerDTO {
 	private String isPrivileged;
 	private String rewardPoints;
 	private String isActive;
-	
-
+	public String getBuyerId() {
+		return buyerId;
+	}
+	public void setBuyerId(String buyerId) {
+		this.buyerId = buyerId;
+	}
 	public String getName() {
 		return name;
 	}
@@ -53,13 +65,6 @@ public class BuyerDTO {
 	public void setIsActive(String isActive) {
 		this.isActive = isActive;
 	}
-	@Override
-	public String toString() {
-		return "BuyerDTO [name=" + name + ", email=" + email + ", phoneNumber=" + phoneNumber + ", password=" + password
-				+ ", isPrivileged=" + isPrivileged + ", rewardPoints=" + rewardPoints + ", isActive=" + isActive + "]";
-	}
-	
-	
 	
 	
 

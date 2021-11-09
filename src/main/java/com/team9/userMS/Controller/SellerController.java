@@ -1,4 +1,4 @@
-package com.team9.userMS.UserMS.Controller;
+package com.team9.userMS.Controller;
 
 import org.hibernate.cfg.Environment;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.team9.userMS.UserMS.DTO.SellerDTO;
-import com.team9.userMS.UserMS.Exception.UserException;
-import com.team9.userMS.UserMS.Service.SellerService;
+import com.team9.userMS.DTO.SellerDTO;
+import com.team9.userMS.Exception.UserException;
+import com.team9.userMS.Service.SellerService;
 
 @RestController
 @CrossOrigin

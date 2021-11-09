@@ -1,4 +1,4 @@
-package com.team9.userMS.UserMS.Controller;
+package com.team9.userMS.Controller;
 
 import java.util.List;
 
@@ -19,11 +19,11 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.server.ResponseStatusException;
 
-import com.team9.userMS.UserMS.DTO.BuyerDTO;
-import com.team9.userMS.UserMS.DTO.CartDTO;
-import com.team9.userMS.UserMS.DTO.ProductDTO;
-import com.team9.userMS.UserMS.Exception.UserException;
-import com.team9.userMS.UserMS.Service.BuyerService;
+import com.team9.userMS.DTO.BuyerDTO;
+import com.team9.userMS.DTO.CartDTO;
+import com.team9.userMS.DTO.ProductDTO;
+import com.team9.userMS.Exception.UserException;
+import com.team9.userMS.Service.BuyerService;
 
 @RestController
 @CrossOrigin

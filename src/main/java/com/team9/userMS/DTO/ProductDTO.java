@@ -1,4 +1,4 @@
-package com.team9.userMS.UserMS.DTO;
+package com.team9.userMS.DTO;
 
 public class ProductDTO {
 	

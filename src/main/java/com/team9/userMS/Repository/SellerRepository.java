@@ -1,8 +1,8 @@
-package com.team9.userMS.UserMS.Repository;
+package com.team9.userMS.Repository;
 
 import org.springframework.data.repository.CrudRepository;
 
-import com.team9.userMS.UserMS.Entity.SellerEntity;
+import com.team9.userMS.Entity.SellerEntity;
 
 public interface SellerRepository extends CrudRepository<SellerEntity, String> {
 	

@@ -1,10 +1,10 @@
-package com.team9.userMS.UserMS.Service;
+package com.team9.userMS.Service;
 
 import java.util.List;
 
-import com.team9.userMS.UserMS.DTO.BuyerDTO;
-import com.team9.userMS.UserMS.DTO.CartDTO;
-import com.team9.userMS.UserMS.Exception.UserException;
+import com.team9.userMS.DTO.BuyerDTO;
+import com.team9.userMS.DTO.CartDTO;
+import com.team9.userMS.Exception.UserException;
 
 public interface BuyerService {
 	

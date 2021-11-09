@@ -1,10 +1,10 @@
-package com.team9.userMS.UserMS.Entity;
+package com.team9.userMS.Entity;
 
 import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
-import com.team9.userMS.UserMS.Utility.CompoundKey;
+import com.team9.userMS.Utility.CompoundKey;
 
 @Entity
 @Table(name = "wishlist")

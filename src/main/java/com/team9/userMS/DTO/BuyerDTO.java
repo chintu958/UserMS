@@ -1,12 +1,16 @@
-package com.team9.userMS.UserMS.DTO;
+package com.team9.userMS.DTO;
 
-public class SellerDTO {
-	
+
+public class BuyerDTO {
 	private String name;
 	private String email;
 	private String phoneNumber;
 	private String password;
+	private String isPrivileged;
+	private String rewardPoints;
 	private String isActive;
+	
+
 	public String getName() {
 		return name;
 	}
@@ -31,6 +35,18 @@ public class SellerDTO {
 	public void setPassword(String password) {
 		this.password = password;
 	}
+	public String getIsPrivileged() {
+		return isPrivileged;
+	}
+	public void setIsPrivileged(String isPrivileged) {
+		this.isPrivileged = isPrivileged;
+	}
+	public String getRewardPoints() {
+		return rewardPoints;
+	}
+	public void setRewardPoints(String rewardPoints) {
+		this.rewardPoints = rewardPoints;
+	}
 	public String getIsActive() {
 		return isActive;
 	}
@@ -39,9 +55,11 @@ public class SellerDTO {
 	}
 	@Override
 	public String toString() {
-		return "SellerDTO [name=" + name + ", email=" + email + ", phoneNumber=" + phoneNumber + ", password="
-				+ password + ", isActive=" + isActive + "]";
+		return "BuyerDTO [name=" + name + ", email=" + email + ", phoneNumber=" + phoneNumber + ", password=" + password
+				+ ", isPrivileged=" + isPrivileged + ", rewardPoints=" + rewardPoints + ", isActive=" + isActive + "]";
 	}
+	
+	
 	
 	
 

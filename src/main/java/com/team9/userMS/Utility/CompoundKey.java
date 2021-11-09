@@ -1,4 +1,4 @@
-package com.team9.userMS.UserMS.Utility;
+package com.team9.userMS.Utility;
 
 import java.io.Serializable;
 import java.util.Objects;

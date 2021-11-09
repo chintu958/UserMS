@@ -1,4 +1,4 @@
-package com.team9.userMS.UserMS.Service;
+package com.team9.userMS.Service;
 
 
 
@@ -6,11 +6,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.team9.userMS.UserMS.DTO.SellerDTO;
-import com.team9.userMS.UserMS.Entity.SellerEntity;
-import com.team9.userMS.UserMS.Exception.UserException;
-import com.team9.userMS.UserMS.Repository.SellerRepository;
-import com.team9.userMS.UserMS.Validator.SellerValidator;
+import com.team9.userMS.DTO.SellerDTO;
+import com.team9.userMS.Entity.SellerEntity;
+import com.team9.userMS.Exception.UserException;
+import com.team9.userMS.Repository.SellerRepository;
+import com.team9.userMS.Validator.SellerValidator;
 
 @Service(value = "sellerSrvice")
 @Transactional

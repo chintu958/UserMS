@@ -1,7 +1,7 @@
-package com.team9.userMS.UserMS.Service;
+package com.team9.userMS.Service;
 
-import com.team9.userMS.UserMS.DTO.SellerDTO;
-import com.team9.userMS.UserMS.Exception.UserException;
+import com.team9.userMS.DTO.SellerDTO;
+import com.team9.userMS.Exception.UserException;
 
 public interface SellerService {
 	

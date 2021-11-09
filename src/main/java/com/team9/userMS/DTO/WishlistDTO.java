@@ -1,10 +1,9 @@
-package com.team9.userMS.UserMS.DTO;
+package com.team9.userMS.DTO;
 
-public class CartDTO {
+public class WishlistDTO {
 	
 	private String buyerId;
 	private String prodId;
-	private Integer quantity;
 	public String getBuyerId() {
 		return buyerId;
 	}
@@ -17,11 +16,9 @@ public class CartDTO {
 	public void setProdId(String prodId) {
 		this.prodId = prodId;
 	}
-	public Integer getQuantity() {
-		return quantity;
-	}
-	public void setQuantity(Integer quantity) {
-		this.quantity = quantity;
+	@Override
+	public String toString() {
+		return "WishlistDTO [buyerId=" + buyerId + ", prodId=" + prodId + "]";
 	}
 	
 	
